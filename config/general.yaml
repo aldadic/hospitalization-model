@@ -1,0 +1,11 @@
+general:
+  state: "Österreich"
+  type: "ICU"
+  age_groups:
+    - ">84"
+    - "75-84"
+    - "65-74"
+    - "55-64"
+    - "45-54"
+  date: "2021-12-15"
+  forecast_days: 14

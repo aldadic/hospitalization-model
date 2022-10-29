@@ -1,0 +1,16 @@
+causal_model:
+  params:
+    hospitalization_p: 0.007
+    poisson_lambda: 1
+    truncnorm_loc: 11
+    truncnorm_scale: 30
+  param_ranges:
+    hospitalization_p: [0.0, 0.1]
+    poisson_lambda: [0, 14]
+    truncnorm_loc: [10, 15]
+    truncnorm_scale: [10, 30]
+  max_iter: 150
+  buffer: 60
+  monte_carlo_iterations: 15
+  calibration_seed: 0x2d06d0f2
+  simulation_seed: 0x883540db8384824af9e5a57913286d0

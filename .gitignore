@@ -1,0 +1,8 @@
+__pycache__
+.vscode
+trash
+data/*
+!data/.gitkeep
+.ipynb_checkpoints
+catboost_info
+logs.log
